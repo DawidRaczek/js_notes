@@ -40,13 +40,13 @@
 // - function scope - tworzony przez ciało funkcji
 // - block scope - tworzony przez block, dowolna para 2 klamerek
 
-function doSmth (){
-    var x1 = 42;
-    let x2 = 42;
-    const x3 = 42;
-}
-
-doSmth();
+// function doSmth (){
+//     var x1 = 42;
+//     let x2 = 42;
+//     const x3 = 42;
+// }
+//
+// doSmth();
 // console.log(x1, x2, x3)  są niedostępne w aktualnym scope, bo są zadeklarowane wewnątrz funkcji
 
 // if (true) {
