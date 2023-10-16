@@ -2,9 +2,9 @@
 
 ## Variables (Zmienne)
 
-Różnice | var | let | const 
-:---: | :---: | :---: |:-----:|
-redeclaration | + (qurks mode) | - |   -   |
-re-assignment (reinicjalizacja) | + | + |   -   |
-hosting | + | + (TDZ | + (TDZ)|
-scope | function | block | block|
+Różnice |       var       | let | const 
+:---: |:---------------:| :---: |:-----:|
+redeclaration | + (quirks mode) | - |   -   |
+re-assignment (reinicjalizacja) |        +        | + |   -   |
+hosting |        +        | + (TDZ | + (TDZ)|
+scope |    function     | block | block|
