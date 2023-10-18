@@ -222,6 +222,7 @@ const countHobbies = (people) => {
     const hobbies = [];
 
     for (const person of people) {
+        console.log(person);
         for (const hobby of person.hobbies) {
             if (!hobbies.includes(hobby)) {
                 hobbies.push(hobby);
@@ -236,5 +237,5 @@ const countHobbies2 = (items) => new Set(
     items.flatMap((item) => item.hobbies)
 ).size;
 
-const r = countHobbies2(data);
+const r = countHobbies(data);
 console.log(r);
