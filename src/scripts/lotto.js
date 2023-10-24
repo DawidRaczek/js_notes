@@ -73,3 +73,4 @@ btnRef.addEventListener('click', function(event){
         console.log("pola są puste");
     }
 });
+
